@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+
+#siteContent {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* top bar section */
+#topBar{
+    height:5vw;
+    padding:15px;
+    margin-bottom:10vw;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+   font-weight:bold;
+   font-size:20px;
+   color: rgb(241, 132, 132); 
+}
+/* main content section */
+#mainContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin:auto;
+}
+
+    .titleText{
+        font-size:50px;
+        font-weight:bold;
+        color: #949494
+    }
+

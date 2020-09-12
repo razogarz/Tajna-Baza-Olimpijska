@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+
+/* top */
+
+#topContent {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size:40px;
+}
+
+/* main content */
+#mainContent {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
