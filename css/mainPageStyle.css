@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin:0px;
+    font-family: Quicksand;
 }
 
 #siteContent {
@@ -9,21 +10,27 @@
     justify-content: space-evenly;
 }
 /* top bar section */
-#topBar{
+#topBar {
     height:5vw;
     padding:15px;
     margin-bottom:10vw;
 
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align:right;
  
    font-weight:bold;
    font-size:20px;
    color: rgb(241, 132, 132); 
 }
+#lv {
+    max-width: 30px;
+    max-height: 30px;
+    display:inline;
+    position:relative;
+    top:10px;
+}
+    
 /* main content section */
-#mainContent{
+#mainContent {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,9 +38,32 @@
     margin:auto;
 }
 
-    .titleText{
+    .titleText {
         font-size:50px;
         font-weight:bold;
         color: #949494
     }
-
+    input[type=text]{
+        width:40vw;
+        min-height:3vw;
+     
+        border: 1px solid rgb(241, 132, 132);
+        border-radius:4px;
+        font-size:20px;
+        padding:10px; 
+    }
+    input[type=text]:focus{
+        outline: 0;
+        border: 2px solid rgb(240, 71, 71); 
+    }
+    #logo {
+        max-width: 175px;
+        max-height:175px;
+    }
+    #lupka {
+        max-width: 35px;
+        max-height: 35px;
+        display:inline;
+        position:relative;
+        top:10px; 
+    }
